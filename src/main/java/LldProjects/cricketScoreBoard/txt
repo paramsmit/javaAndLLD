@@ -1,0 +1,14 @@
+pub sub model
+
+cricket score
+
+updates the score
+and subscribers should get the updated score
+
+publisher has a list of subscribers
+
+subscriber can subscribe or unsubscribe
+so remove and add in the list
+
+subscriber might be an interface.
+push is what publisher would do

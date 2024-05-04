@@ -1,0 +1,101 @@
+flow diagram with user input and processing
+
+card holder. to decide the bank name.
+
+get feature. feature would require card information and other holder name
+
+
+
+
+different functions:
+balance inquiry
+deposit cash
+deposit check
+withDraw cash
+transfer funds
+
+Entites: cash holder, card holder, check holder, receipt dispenser
+
+verification.
+Authentication.
+
+select features.
+ask for user input.
+processing the transaction. depending on the response perform the task.
+
+withdraw
+got the amount.
+check the amount.
+check the balance.
+and then perform the transaction.
+and return the response like successful. and then dispense the cash.
+dispense the card.
+
+
+
+withDraw cash steps
+
+hold and read the card
+enter pin -> verify
+select feature (withdraw cash)
+
+
+enter cash (via keypad)
+process transaction -> verify the amount and balance
+
+dispense cash
+dispense card
+
+
+Balance inquiry
+
+hold and read the card
+enter pin -> verify
+
+select feature. (balance inquiry)
+
+some processing of the transaction
+show balance
+
+dispense card
+
+deposit check
+
+hold and read the card
+enter pin -> verify
+
+select feature (deposit check)
+
+check holder (accepts check)
+process
+
+dispense cash
+dispense check stamped/unstamped depending on the output of the transaction.
+
+Deposit cash
+hold and read the card
+enter pin -> verify
+
+select feature (deposit cash)
+
+cash holder (accepts cash)
+process
+
+exit with success(collect) or dispense the cash.
+
+
+Transfer funds
+hold and read the card
+enter pin -> verify
+
+select feature (transfer funds)
+
+select account to transfer.
+amount
+
+error/success
+dispense card.
+
+
+
+

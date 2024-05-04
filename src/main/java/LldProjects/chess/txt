@@ -1,0 +1,40 @@
+chess chessBoard game:
+requirements:
+
+1) chess game
+chessBoard and pieces and 2 players game
+2) turn one after another
+3) checkmate then game over
+4) keep track of the pieces and chessBoard to avoid the illegal move
+5) keep track of the current positions of all the boxes and pieces
+
+Design classes and relationships
+write down all the entities
+chessBoard, game, chessPlayer, piece
+
+chessBoard class should keep track of all the cells
+
+piece
+    - type
+    - color
+    - alive
+
+chessPlayer
+    - name
+    - points
+
+move
+    - start pos
+    - end pos
+    - piece
+
+chessBoard
+    - all the pieces
+    - some sort of matrix
+    - constructor to init chessBoard matrix
+
+game
+    - start
+    - stop
+    - isOver
+

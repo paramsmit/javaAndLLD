@@ -1,0 +1,85 @@
+Is par ya us par. bich me nahi. if u are getting bored. do it with speed.
+tip of the effort makes u feel effortless. Karma yogi.
+
+there is this disbelief that i wouldn't be able to crack it. and whatever
+gymnastic u are doing is not worth it. this feeling can be changed once u get the momentum.
+u need patience and get it going for sometime.
+
+search item
+
+select item cart
+order item -> order placed
+payment choice
+delivery selection
+track order
+and at the end of the day u need working code
+
+read some mock interviews of this LLD
+
+more precisely define the behaviour
+
+    enter the site. backend api classes.
+    search the item. give u the list of items.
+    select the item. and put it in the cart.
+
+    go to checkout and buy items in the cart.
+    place order api. select delivery method. and payment method.
+    once u pay then only order is placed.
+
+entities
+
+item
+cart
+order
+payment
+most of the systems have payment interfaces. so do it properly. one time and apply everywhere.
+
+item searcher
+give back the list of items.
+
+add to cart
+create the cart if not exist or get the cart and add item to it.
+
+checkout cart
+select delivery options and payment method.
+just ask for payment.
+
+place order.
+do the actual payment and confirm. after that place the order.
+
+classes.
+
+db accessor
+Searcher
+item
+cart
+order
+payment classes and methods
+delivery classes and methods
+
+item searchers api -> takes in parameter like name, type, brand, etc etc.
+different implementations. get the list of this parameters and run it by and close.
+could be an enum. search parameters. search query. + filters. type, brand, color.
+
+Searcher class.
+
+search();
+apply filters. not a database will do. we have to do it in the code.
+
+apply all kinds of filter.
+Color, payOnDelivery, Size filter etc etc.
+
+List<Filter>,
+payOnDelivery is true or false.
+size and date.
+List<>
+one by one u can apply filter.
+
+filter class.
+filter will have method filter. takes list<Item> and returns list<Items>
+
+search(query, List<Filter> filters)
+call filter api of all the filters after getting the search result.
+FilterFactory. each filter will accept some argument in the constructor.
+
+

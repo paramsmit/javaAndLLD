@@ -1,0 +1,9 @@
+stock trading app
+
+pub-sub
+
+stock -> subscribers
+value change in stock. -> update to subscribers
+
+
+

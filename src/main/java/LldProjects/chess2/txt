@@ -1,0 +1,64 @@
+things that i learnt
+
+-> common logic can be written in abstract class
+    can use other abstract classes we can use in the abstract class
+
+
+
+
+
+entities
+
+board
+game
+piece
+cell
+player
+Move
+
+responsibility
+
+cell
+- row and col
+- piece
+- getChessPiece
+- setChessPiece
+
+piece
+- name
+
+chessPiece
+- PieceName
+- isDead
+- setDead
+- setAlive
+- move(current cell, destcell, chessBoard)
+
+player
+name
+
+chessPlayer
+pieces
+make move
+getPiece
+
+
+board
+-> display
+-> applyMove
+
+ChessBoard
+-> matrix with Cells
+-> applyMove(Move)
+
+game
+- players
+- start
+- isOver (abs)
+- board
+
+chessGame
+- first player
+- second player
+- prepare board
+
